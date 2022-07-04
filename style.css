@@ -1,0 +1,46 @@
+section{
+    background-color: rgb(255, 208, 0);
+width: 100%;
+}
+
+#show_sketch {
+    float: right;
+}
+
+.clear_canvas {
+    box-shadow: rgb(188, 237, 243);
+}
+
+h1{
+    color:whitesmoke;
+    box-shadow: rgb(188, 237, 243);
+    font-family: 'Permanent Marker', cursive;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background-color: rgb(250, 234, 206);
+}
+canvas {
+    margin-top: 200px;
+    margin: right 100px;
+    margin-bottom: 200px;
+    border-radius:20px;
+    border: 5px solid;
+    animation-name:example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  
+    from{ box-shadow:5px 1px 38px blue;}
+    to{ box-shadow:5px 1px 38px purple;}
+    
+}
+
+
